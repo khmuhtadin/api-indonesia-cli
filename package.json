@@ -1,0 +1,51 @@
+{
+  "name": "apiindonesia",
+  "version": "0.1.0",
+  "description": "Command-line client for API Indonesia: Indonesian public data (regions, postal codes, holidays, prayer times, BMKG earthquakes and weather, exchange rates, UMP, schools, universities, hospitals, halal, BPOM, trademarks) from your terminal.",
+  "type": "module",
+  "bin": {
+    "apiindonesia": "bin/apiindonesia.js",
+    "api-indonesia": "bin/apiindonesia.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "indonesia",
+    "api-indonesia",
+    "apiindonesia",
+    "cli",
+    "wilayah",
+    "kode-pos",
+    "postal-code",
+    "hari-libur",
+    "jadwal-sholat",
+    "bmkg",
+    "gempa",
+    "cuaca",
+    "kurs",
+    "ump",
+    "nik",
+    "open-data",
+    "public-data"
+  ],
+  "homepage": "https://apiindonesia.id",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khmuhtadin/api-indonesia-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khmuhtadin/api-indonesia-cli/issues"
+  },
+  "author": "Khairul Muhtadin (Khaisa Studio) <contactmuhtadin@gmail.com>",
+  "license": "MIT"
+}
