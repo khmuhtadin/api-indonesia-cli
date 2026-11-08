@@ -10,11 +10,15 @@ Regions (Kemendagri codes), postal codes, public holidays and cuti bersama, pray
 
 ## Install
 
+Install straight from GitHub (works today):
+
 ```bash
-npm install -g apiindonesia
+npm install -g github:khmuhtadin/api-indonesia-cli
 # or run without installing
-npx apiindonesia --help
+npx -y github:khmuhtadin/api-indonesia-cli --help
 ```
+
+The npm package name `apiindonesia` is reserved for this CLI but not published yet. Once it is, `npm install -g apiindonesia` and `npx apiindonesia --help` will work too.
 
 The package installs two command names: `apiindonesia` and `api-indonesia`.
 
