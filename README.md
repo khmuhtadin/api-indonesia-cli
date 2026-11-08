@@ -18,7 +18,7 @@ npm install -g github:khmuhtadin/api-indonesia-cli
 npx -y github:khmuhtadin/api-indonesia-cli --help
 ```
 
-The npm package name `apiindonesia` is reserved for this CLI but not published yet. Once it is, `npm install -g apiindonesia` and `npx apiindonesia --help` will work too.
+The npm package `apiindonesia` is not published yet. Once it is, `npm install -g apiindonesia` and `npx apiindonesia --help` will work too.
 
 The package installs two command names: `apiindonesia` and `api-indonesia`.
 
